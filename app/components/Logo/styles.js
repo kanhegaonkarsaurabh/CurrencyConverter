@@ -13,9 +13,6 @@ export default EStyleSheet.create({
         width: imageWidth,
         height: imageWidth,
     },
-    image: {
-        width: imageWidth / 2,
-    },
     text: {
         fontWeight: '600',
         fontSize: 20,

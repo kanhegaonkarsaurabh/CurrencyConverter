@@ -4,10 +4,8 @@ import styles from './styles';
 
 const Logo = () => (
     <View style={styles.container}>
-        <Image resizeMode="contain" style={styles.imageContainer} source={require('./images/background.png')}>
-            <Image resizeMode="contain" style={styles.image} source={require('./images/logo.png')} />
-        </Image>
-        <Text style={styles.text} >Currency Converter</Text>
+        <Image resizeMode="contain" style={styles.imageContainer} source={require('./images/background.png')} />
+        <Text style={styles.text} >Meet to Dine</Text>
     </View>
 );
 
